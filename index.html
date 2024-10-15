@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iOS QR Code Scanner Simulation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="phone">
+        <div class="screen">
+            <div class="status-bar">
+                <span>9:41</span>
+                <span>📶 100% 🔋</span>
+            </div>
+            <div class="camera-view">
+                <button class="flash-button">⚡️</button>
+                <div class="scan-area">
+                    <div class="qr-code"></div>
+                    <div class="scan-frame">
+                        <div class="corner corner-tl"></div>
+                        <div class="corner corner-tr"></div>
+                        <div class="corner corner-bl"></div>
+                        <div class="corner corner-br"></div>
+                    </div>
+                </div>
+                <div class="capture-button"></div>
+                <div class="info-card">
+                    <h3>QR Code Scanned</h3>
+                    <p>Link: example.com/12345</p>
+                    <p>Title: Example Page</p>
+                    <p>Description: A sample webpage...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
